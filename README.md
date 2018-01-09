@@ -19,8 +19,6 @@ Your kernel must also have been compiled with CONFIG\_PM\_SLEEP and CONFIG\_RTC\
 Essentially you need sleep/hibernate support... for now.
 
 So far this has been tested on the kernels listed below:
-
-Kernel versions tested:
 ```
 4.14.12-1-ARCH
 ```
@@ -65,6 +63,7 @@ fastforward            16384  0
 $ uptime
  22:24:50 up 16061 days,  6:11,  1 user,  load average: 0.08, 0.14, 0.1
 ```
+Wow!
 
 ### Remove Module
 Remove module from the kernel:
