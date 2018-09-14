@@ -2,7 +2,7 @@
 
 - [ ] Is your friend bragging about his system's uptime?
 - [ ] Did you just reboot for some crucial kernel updates to keep your crypto cats safe?
-- [ ] Can your uptime "roll over", enabling you to sell your computer as brand-new?
+- [ ] Perhaps your uptime can "roll over", enabling you to sell your computer as brand-new?
 - [ ] Are you bored and hungry for some sweet, sweet kernel hacking?
 
 If you clicked on any of the above, then you need _FastForward_, the Linux loadable kernel module (LKM) that abuses sleep/hibernate timekeeping functions to "fastforward" your system's uptime.
@@ -20,7 +20,9 @@ Essentially you need sleep/hibernate support... for now.
 
 So far this has been tested on the kernels listed below:
 ```
-4.14.12-1-ARCH
+4.14.12-1-ARCH      - last worked on 9fccc86cdc97a58e43fc8772a6361303bb075be4
+4.18.5-arch1-1-ARCH - working with current commit
+
 ```
 
 ## Usage
